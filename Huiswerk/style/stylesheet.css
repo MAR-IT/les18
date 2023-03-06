@@ -1,0 +1,57 @@
+font-family: 'Fjalla One', sans-serif;
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  }
+.header {
+  width: 100%;
+  background-image: url(../img/gemeentenijkerk.jpg);
+  color: #ffffff;
+  padding: 15px;
+}
+.feit ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+.feit li {
+  padding: 8px;
+  background-color: #9bac4b;
+  font-weight: bold;
+}
+section {
+  background-color: #c9cc98;
+  padding: 15px;
+  display: inline-block;
+  margin: 10px;
+  max-width: 100%;
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+.info {
+  display: inline-flex;
+}
+.footer {
+  height: auto;
+  background-color: #56671f;
+  padding: 20px;
+}
